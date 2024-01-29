@@ -1,6 +1,14 @@
+import Home from "./components/Home";
+import Modal from "./components/Modal";
+import Sidebar from "./components/Sidebar"
+
 const App = () => {
   return (
-    <h1>Coding Addict Sidebar</h1>
+    <main>
+      <Home />
+      <Modal />
+      <Sidebar />
+    </main>
   )
 };
 
