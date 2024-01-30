@@ -3,7 +3,6 @@ import { FaBars } from "react-icons/fa";
 
 const Home = () => {
     const { openSidebar, openModal } = useGlobalContext();
-    console.log(openSidebar);
 
     return (
       <main className="min-h-[100vh] flex justify-center items-center bg-[#f1f5f9]">
