@@ -1,4 +1,4 @@
-import { FaTimes } from "react-icons/fa";
+import { BsEmojiDizzyFill } from "react-icons/bs";
 import { useGlobalContext } from "../context";
 import stooges from "../assets/Stoogelogo.png"
 
@@ -13,7 +13,7 @@ const Modal = () => {
             className="absolute top-4 right-4 text-[2rem] bg-transparent border-transparent cursor-pointer text-[#fa1407]"
             onClick={closeModal}
           >
-            <FaTimes />
+            <BsEmojiDizzyFill className="hover:animate-spin hover:text-[#d40f04]" />
           </button>
         </div>
       </div>
